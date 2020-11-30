@@ -55,15 +55,15 @@
     <!--About Me-->
     <section id="about" class="container-fluid mb-0">
       <br><br>
-      <h1 class="display-3 text-center">ABOUT ME</h1>
+      <h1 class="display-3 text-center fade-scroll">ABOUT ME</h1>
       <div class="row justify-content-center mt-0 mb-5">
-        <img src="code.png" alt="Coding icon" class="img-fluid">
+        <img src="./images/code.png" alt="Coding icon" class="img-fluid">
       </div>
-      <div class="row">
+      <div class="row fade-in">
         <div class="col-md-6">
           <div class="row justify-content-center">
             <div class="col-8">
-              <img src="bv.jpg" alt="Photo of Brittany" class="img-fluid profile">
+              <img src="./images/hs1.jpg" alt="Photo of Brittany" class="img-fluid profile">
 
             </div>
 
@@ -78,7 +78,7 @@
              "Hello world" really got me. Who knew that such a simple program would send me down this path
             of pursuing computer science as a career!?</p>
           <p class="lead">I have a bachelor of science in Chemistry from Western University and a Computer
-            Science degree fromnthe University of Windsor Ontario. </p>
+            Science degree from the University of Windsor Ontario. </p>
         </div>
       </div>
     </section>
@@ -89,43 +89,84 @@
       <br><br>
       <h1 class="display-3 text-center">PROJECTS</h1>
       <div class="row justify-content-center mt-0 mb-5">
-        <img src="code.png" alt="Coding icon" class="img-fluid">
+        <img src="./images/code.png" alt="Coding icon" class="img-fluid">
       </div>
       <div class="row">
-        <div class="col-lg-6 order-2 order-md-1">
-          <img src="museumOfCandy.png" alt="Museum Of Candy Website" class="img-fluid project1">
+        <div class="col-lg-6 order-2 order-md-1 shadow-lg p-3 mb-5 bg-white rounded slide-in from-left">
+          <img src="./images/museumOfCandy.png" alt="Museum Of Candy Website" class="img-fluid project1">
         </div>
-        <div class="col-lg-6 mt-2 mb-5 order-1 order-md-2">
+        <div class="col-lg-6 mt-2 mb-5 order-1 order-md-2 slide-in from-right">
           <h3 class="display-4 text-center" id="projectName">Museum Of Candy</h3>
           <p class="lead">A mock-up website inspired by the instagrammable Museum of Candy in New York. The purpose of
             this website is to demonstrate some skills in bootstrap 4 and the grid system, including responsiveness and
-            mobile-friendly content.<br><br>HTML, CSS, and a little bit of javascript are used in this project.<br><br>
-            You can view this project here: <a id="link" href="https://brittvanderlip.github.io/Museum-Of-Candy/">Museum
-            Of Candy</a></p>
+            mobile-friendly content.<br><br>HTML, CSS, and a little bit of javascript are used in this project.</p><br><br>
+            <div class="d-flex justify-content-center buttons">
+              <button onclick="location.href='https://github.com/brittvanderlip/Museum-Of-Candy'"type="button" class="btn btn-outline-dark mr-5">Source Code</button>
+              <button onclick="location.href='https://brittvanderlip.github.io/Museum-Of-Candy/'"type="button" class="btn btn-outline-dark">
+              View Project</button>
+            </div>
+
         </div>
       </div>
       <div class="row">
-        <div class="col-lg-6 order-2">
-          <img src="EcoMall.png" alt="Eco Mall Website" class="img-fluid project2">
+        <div class="col-lg-6 order-2 shadow-lg p-3 mb-5 bg-white rounded slide-in from-right">
+          <img src="./images/EcoMall.png" alt="Eco Mall Website" class="img-fluid project2">
         </div>
-        <div class="col-lg-6 mt-2 mb-md-5 order-1">
+        <div class="col-lg-6 mt-2 mb-md-5 order-1 slide-in from-left">
           <h3 class="display-4 text-center" id="projectName">Eco Mall</h3>
           <p class="lead">A group project completed during my undergrad using pure css and html to layout the website. The website is a mock
             online shopping website with special authenticating feature. Only users who are logged in can "shop" and review products.
            <br><br>HTML, CSS, javascript, ajax, jquery, SQL database, TinyMCE and php
-            are used in this project.<br><br>
-            You can view this project here: <a id="link" href="ecomall.vanderlb.myweb.cs.uwindsor.ca">Eco Mall</a></p>
+            are used in this project.</p><br><br>
+            <div class="d-flex justify-content-center buttons">
+              <button onclick="location.href='https://github.com/brittvanderlip/EcoMall'"type="button" class="btn btn-outline-dark mr-5">Source Code</button>
+              <button onclick="location.href='https://ecomall.vanderlb.myweb.cs.uwindsor.ca'"type="button" class="btn btn-outline-dark">
+              View Project</button>
+            </div>
         </div>
       </div>
       <div class="row">
-        <div class="col-lg-6 order-2 order-md-1">
-          <img src="colorGame.png" alt="Color Game Web App" class="img-fluid project3">
+        <div class="col-lg-6 order-2 order-md-1 shadow-lg p-3 mb-5 bg-white rounded slide-in from-left">
+          <img src="./images/colorGame.png" alt="Color Game Web App" class="img-fluid project3">
         </div>
-        <div class="col-lg-6 mt-2 mb-5 order-1 order-md-2">
+        <div class="col-lg-6 mt-2 mb-5 order-1 order-md-2 slide-in from-right">
           <h3 class="display-4 text-center" id="projectName">Colour Guessing Game</h3>
           <p class="lead">A web application using HTML, CSS, and Javascript. The Colour Game application randomly selects an RGB color
-          and the user must guess the colour. There are two levels, easy and hard.<br><br>You can view this project here:
-        <a id="link" href="https://brittvanderlip.github.io/Colour-Guessing-Game/">Colour Guessing Game</a> </p>
+          and the user must guess the colour. There are two levels, easy and hard.</p><br><br>
+          <div class="d-flex justify-content-center buttons">
+            <button onclick="location.href='https://github.com/brittvanderlip/Colour-Guessing-Game'"type="button" class="btn btn-outline-dark mr-5">Source Code</button>
+            <button onclick="location.href='https://brittvanderlip.github.io/Colour-Guessing-Game/'"type="button" class="btn btn-outline-dark">
+            View Project</button>
+          </div>
+
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-6 order-2 shadow-lg p-3 mb-5 bg-white rounded slide-in from-right">
+          <img src="./images/bkgrndgenerator.png" alt="Gradient Generator" class="img-fluid project2">
+        </div>
+        <div class="col-lg-6 mt-2 mb-md-5 order-1 slide-in from-left">
+          <h3 class="display-4 text-center" id="projectName">Gradient Generator</h3>
+          <p class="lead">A javascript application to generate background gradients and supply the appropriate css code for the user.</p><br><br>
+            <div class="d-flex justify-content-center buttons">
+              <button onclick="location.href='https://github.com/brittvanderlip/Background-Gradient-Generator'"type="button" class="btn btn-outline-dark mr-5">Source Code</button>
+              <button onclick="location.href='https://brittvanderlip.github.io/Background-Gradient-Generator/'"type="button" class="btn btn-outline-dark">
+              View Project</button>
+            </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-6 order-2 order-md-1 shadow-lg p-3 mb-5 bg-white rounded slide-in from-left">
+          <img src="./images/windsortop10.png" alt="Windsor's top 10" class="img-fluid project3">
+        </div>
+        <div class="col-lg-6 mt-2 mb-5 order-1 order-md-2 slide-in from-right">
+          <h3 class="display-4 text-center" id="projectName">Windsor's Top 10 (Google Map API)</h3>
+          <p class="lead">A front-end web application providing Windsor's top 10 spots using the google map api. For setting
+          up your API key, please view the "Source Code" and see under README.md to use web app.</p><br><br>
+          <div class="d-flex justify-content-center buttons">
+            <button onclick="location.href='https://github.com/brittvanderlip/Windsor-s-Top-10'"type="button" class="btn btn-outline-dark mr-5">Source Code</button>
+          </div>
+
         </div>
       </div>
     </section>
@@ -135,7 +176,7 @@
       <br><br>
       <h1 class="display-3 text-center">Connect</h1>
       <div class="row justify-content-center mt-0 mb-5">
-        <img src="code.png" alt="Coding icon" class="img-fluid">
+        <img src="./images/code.png" alt="Coding icon" class="img-fluid">
       </div>
       <div class="row justify-content-between" id="icons">
         <a href="http://github.com/brittvanderlip" aria-label="Git Hub"><i class = "fab fa-github fa-3x"></i></a>
@@ -146,18 +187,19 @@
     <hr>
 
     <footer class="container d-flex justify-content-center">
-      &copyBrittany Vanderlip <br><br>
+      &copy 2020 BY BRITTANY VANDERLIP <br><br>
     </footer>
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-    <script>
+    <script type="text/javascript">
       $(function () {
           $(document).scroll(function () {
               var $nav = $("#mainNavbar");
               $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+
           });
       });
 
@@ -168,3 +210,4 @@
   </body>
 
 </html>
+
